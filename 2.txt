@@ -1,0 +1,70 @@
+   0 ls
+   1 mkdir /home/
+   2 date
+   3 bash
+   4 date
+   5 date > /tmp/file
+   6 echo hello word
+   7 echo "hello word"
+   8 echo "hello word" >> /tmp/file
+   9 cat /tmp/file
+  10 cat /etc/group
+  11 cat /etc/group | wc -l
+  12 cat /etc/group | wc 
+  13 wc --help
+  14 cat /etc/group | head
+  15 head --help
+  16 cat /etc/group | head -3
+  17 cat /etc/group | tail
+  18 cat /etc/group | tail -3
+  19 tail -- help
+  20 tail --help
+  21 history | tail -n3
+  22 history | tail -n3 >> /tmp/
+  23 history | tail -n3 >> /tmp/file
+  24 cat /tmp/file
+  25 ws -l < /etc/group
+  26 ws -1 < /etc/group
+  27 ws -l < /etc/group
+  28 mkdir /home/user/start
+  29 pwd
+  30 cd /
+  31 ls
+  32 cd /home
+  33 ls
+  34 mkdir user
+  35 cd user
+  36 mkdir start
+  37 touch 1.txt
+  38 ls
+  39 mv 1.txt ./start
+  40 ls
+  41 cd start
+  42 ls
+  43 echo Start >> 1.txt
+  44 cat 1.txt
+  45 date
+  46 echo date
+  47 date >> 1.txt
+  48 cat 1.txt
+  49 cd /opt
+  50 ls
+  51 mkdir task
+  52 ls
+  53 cd /home/user/start
+  54 ls
+  55 cp 1.txt
+  56 cp 1.txt /opt/task
+  57 ls /opt/task
+  58 ls / 
+  59 ls -la /
+  60 ls -la / | tail -4
+  61 ls -la / | tail -4 >> /opt/task/1.txt
+  62 cat /opt/task/1.txt
+  63 mv /opt/task/1.txt /opt/start.txt
+  64 ls
+  65 ls /opt/task
+  66 mv /opt/start/.txt
+  67 mv /opt/start.txt /opt/task/start.txt
+  68 ls /opt/task
+  69 history > /tmp/history.txt
